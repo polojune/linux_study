@@ -6,8 +6,9 @@ public class RandomTest {
 
 	public static void main(String[] args) {
 		Random r = new Random();
-		
-		System.out.println(r.nextInt(1000));
+		int num = r.nextInt(50)+1;
+		System.out.println("random value : "+num);
+		System.out.println("수정");
 
 	}
 
